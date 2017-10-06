@@ -1,0 +1,7 @@
+<resources>
+    <string name="hello_world">اهلا وسهلا</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="app_name">"كريدولوجوس"</string>
+    <string name="navigation_drawer_open">Navigation_Open</string>
+    <string name="navigation_drawer_close">Navigation_Close</string>
+</resources>
