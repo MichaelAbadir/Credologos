@@ -21,7 +21,7 @@
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:scaleType="fitXY"
         android:visibility="visible"
-        app:srcCompat="@drawable/navigator_logo" />
+        app:srcCompat="@drawable/credologos_slogan" />
 
     <TextView
         android:layout_width="match_parent"
