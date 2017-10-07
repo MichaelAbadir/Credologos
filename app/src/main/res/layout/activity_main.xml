@@ -13,23 +13,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <android.support.design.widget.NavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:background="@color/colorPrimaryDark"
-        android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_main"
-        app:menu="@menu/activity_main_drawer" />
-
     <AbsoluteLayout
         android:id="@+id/relative_lay1"
         android:layout_width="200dp"
         android:layout_height="260dp"
         android:layout_centerInParent="true"
-        android:gravity="center"
-        >
+        android:gravity="center">
 
         <android.support.v4.view.ViewPager
             android:id="@+id/pager"
@@ -45,6 +34,16 @@
             android:layout_alignParentBottom="false"
             android:layout_y="199dp" />
     </AbsoluteLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/colorPrimaryDark"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
 
 
 </android.support.v4.widget.DrawerLayout>
