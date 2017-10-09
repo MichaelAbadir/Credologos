@@ -13,7 +13,7 @@
         <item
             android:id="@+id/nav_material"
             android:icon="@drawable/ic_menu_material"
-            android:title="Material" />
+            android:title="أفكر" />
         <item
             android:id="@+id/nav_questions"
             android:icon="@drawable/ic_menu_q_a"

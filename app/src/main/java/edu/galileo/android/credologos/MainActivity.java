@@ -1,5 +1,6 @@
 package edu.galileo.android.credologos;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -17,6 +18,9 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.AdapterView;
+import android.widget.ListView;
+
 import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -31,6 +35,8 @@ public class MainActivity extends AppCompatActivity
     private static int currentPage = 0;
     private static final Integer[] XMEN= {R.drawable.wadi,R.drawable.menia};
     private ArrayList<Integer> XMENArray = new ArrayList<Integer>();
+    private DrawerLayout drawerLayout;
+    private ListView drawerListView;
 
 
     @Override
@@ -123,6 +129,7 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
+
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
@@ -147,5 +154,7 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
 }
 
