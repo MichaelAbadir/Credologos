@@ -8,7 +8,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Previous Events"
+        android:text="Questions"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
         android:layout_marginStart="18dp"
         android:layout_centerVertical="true"
